@@ -1,0 +1,106 @@
+body {
+	color: #606060;
+	font-size: 25px;
+	text-align: center;
+	min-height: 100%;
+	background: url('images/redsofa.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+li{
+list-style-type: none;
+}
+.logo {
+	float: left; /*Розташування зліва*/
+	margin-top: 2%;
+}
+.topnav {
+	margin: 0 auto; /*Центрування блоку*/
+	max-width: 665px; /*Гумова ширина*/ /*Вирівнювання меню в рядок і центрування*/
+}
+
+.menu {
+	margin: 0;
+}
+.menu li {
+	float: left; /*Щоб меню розташувалось в один рядок*/
+	font-weight: 600; /*Жирність шрифта у значенні*/
+}
+.menu li a {
+	color: #fff;
+	display: block; /*Для відпрацювання вертикальних значень padding*/
+	padding: 4px 35px;
+	text-decoration: none;
+	border-bottom: 2px solid transparent; /*Для "уникнення стрибання" при наведенні*/
+		
+}
+.menu li a:hover {
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+}
+.botnav {
+	float: right;
+	margin: 0;
+	margin-top: 75px;
+	margin-left: 750px;
+	
+}
+.botnav li {
+	float: right;
+	margin: 0;
+	padding: 5px 5px;
+}
+.insta {
+	background-image: url(images/insta3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	height: 55px;
+	width: 55px;
+}
+.insta:hover {	
+	background-image: url('images/insta2.png');
+}
+.facebook {
+	background-image: url(images/facebook2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	height: 55px;
+	width: 55px;
+}
+.facebook:hover {	
+	background-image: url('images/facebook.png');
+}
+.sound {
+	background-image: url(images/sound2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	height: 55px;
+	width: 55px;
+}
+.sound:hover {	
+	background-image: url('images/sound.png');
+	
+}
+.you {
+	background-image: url(images/you2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	height: 54px;
+	width: 54px;
+}
+.you:hover {	
+	background-image: url('images/you.png');
+	height: 54px;
+	width: 54px;
+}
+.audio {
+	margin-top: 100px;
+}

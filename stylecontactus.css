@@ -1,0 +1,42 @@
+body{
+	background: url('images/redsofa.jpg');
+	background-size: 100%;
+}
+/* Стиль для полів з type="text", фокусування елементів і текстових полів */
+input[type=text], select, textarea {
+	width: 100%; /* розмір полів на всю ширину контейнера */
+	padding: 6px; /* внутрішня ширинна поля */  
+    border: 2px solid #C82727; /* червона рамка */
+    border-radius: 5px; /* фаска для текстових полів */
+    box-sizing: border-box; /* для фіксування margin і padding */
+    margin-top: 6px; /* зовнішній верхній відступ */
+    margin-bottom: 16px; /* зовнішній нижній відступ */
+    resize: vertical /* розтягування текстового поля тільки вертикально) */
+}
+
+/* Стиль для кнопки "Send" */
+input[type=submit] {
+	opacity: 0.8; /* затемнення кнопки для ховера*/
+    background-color: red; /*червоний фон*/
+    color: white; /*колір назви кнопки*/
+    padding: 12px 40px; /*внутрішні розміри кнопки*/
+    border: none; /* забирає рамку навколо кнопки*/
+    border-radius: 4px; /* фаска для кнопки */
+    cursor: pointer; /*кусорк pointer для кнопки*/
+	margin-left: 41%; /* зовнішній відступ з ліва для центрування кнопки*/
+	margin-bottom: 1.5%; /*зовнішній відступ з низу для центрування кнопки*/
+}
+
+/* Підсвідка кнопки при наведенні */
+input[type=submit]:hover {
+	opacity: 1;
+}
+/* Задній фон для форми */
+.container {
+	border-radius: 7px; 
+    background-color: black; 
+    padding: 8px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+}

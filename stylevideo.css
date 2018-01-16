@@ -1,0 +1,43 @@
+body {
+	background:url('images/back.jpg');
+	background-size: 100%;
+}
+
+li{
+list-style-type: none;
+}
+.row {
+	margin: 0 auto;
+	max-width: 100%;
+}
+	
+.row li {
+	float: left; /*Щоб меню розташувалось в один рядок*/
+	margin-left: 5px;
+}
+.one {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+	
+}
+.two {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.three {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.four {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.five {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.six {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
